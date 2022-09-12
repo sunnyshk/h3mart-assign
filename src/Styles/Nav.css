@@ -1,0 +1,46 @@
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 5px;
+    border-bottom-color: rgba(34, 36, 38, 0.15);
+}
+
+img{
+    width: 100px;
+}
+
+.nav-div ul{
+    display: flex;
+    gap: 15px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* margin-right: 20px; */
+}
+
+button{
+    background-color: 
+    #18c683;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 40%) 0px 2px 15px -3px;
+    transition: transform 0.2s ease 0s;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
